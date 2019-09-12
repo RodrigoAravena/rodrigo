@@ -1,6 +1,4 @@
 ---
-- hosts: 'all'
-  tasks:
   - name: 'Enviando el fichero'
     copy:
       src: /etc/ansible/examples/hosts
