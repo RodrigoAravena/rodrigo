@@ -1,5 +1,5 @@
 ---
-- hosts: 'example'
+- hosts: 'all'
   tasks:
   - name: 'Enviando el fichero'
     copy:
